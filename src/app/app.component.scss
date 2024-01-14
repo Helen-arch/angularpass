@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: auto;
+  padding: 15px;
+  width: 400px;
+}
+
+.control {
+  border-radius: 8px;
+  border: 1px solid grey;
+  background-color: whitesmoke;
+  padding-inline: 12px;
+  min-width: 200px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.sectionWrapper {
+  display: flex;
+  gap: 4px;
+}
+
+.section {
+  height: 20px;
+  width: 10%;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.default {
+  background-color: gainsboro;
+}
+
+.easy {
+  background-color: crimson;
+}
+
+.medium {
+  background-color: gold;
+}
+
+.strong {
+  background-color: yellowgreen;
+}
