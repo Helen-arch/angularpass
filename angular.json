@@ -20,6 +20,8 @@
             "outputPath": "dist/angularpass",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "baseHref": "/angularpass/",
+            "deployUrl": "/angularpass/",
             "polyfills": [
               "zone.js"
             ],
